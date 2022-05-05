@@ -120,10 +120,6 @@ macro_rules! method_macro {
 /// - `guard = "function_name"`: Registers function as guard using `actix_web::guard::fn_guard`.
 /// - `wrap = "Middleware"`: Registers a resource middleware.
 ///
-/// # Notes
-/// Function name can be specified as any expression that is going to be accessible to the
-/// generate code, e.g `my_guard` or `my_module::my_guard`.
-///
 /// # Examples
 /// ```
 /// # use actix_web::HttpResponse;
